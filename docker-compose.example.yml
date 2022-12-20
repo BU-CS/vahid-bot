@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  vahid-bot:
+    container_name: vahid-bot
+    image: bu-cs/vahid-bot:latest
+    restart: unless-stopped
+    environment:
+      # Discord
+      DISCORD_GUILD_ID: 
+      DISCORD_BOT_TOKEN: 
+      # Logging
+      LOG_LEVEL: INFO
