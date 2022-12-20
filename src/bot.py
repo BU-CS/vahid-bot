@@ -12,7 +12,6 @@ import __init__
 bot = commands.Bot(
     # activity=discord.Activity(type=discord.ActivityType.listening, name="to your messages"),
     case_insensitive=True,
-    cohere_api_key=os.environ.get("COHERE_API_KEY", ""),
     command_prefix="!",
     help_command=None,
     intents=discord.Intents(
